@@ -22,10 +22,13 @@ header {
 .logoa img{
     width: 70px;height: 70px;
 }
+.menua{
+    margin-left: 135px;
+}
 .menua a{
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    margin: 20px;
+    margin-right: 20px;
     text-decoration: underline;
 }
 .material-symbols-outlined{
@@ -80,5 +83,29 @@ main{
     color: white;
     width: 400px; height: 500px;
     margin-right: 90px;
-    }
+}
+.footernav{
+    margin-bottom: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    display: flex;
+}
+.footernav>div>img{
+    width: 4%;
+    height: 4%;
+    margin-left: 10px;
+}
+.menua{
+    display: flex;
+    margin-right:400px; 
+    font-size: 17px;
+}
+.legala li{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    list-style: none;
+    margin-right: 10px;
+    display: flex;
+}
+
 /*Orrialde nagusiaren css-a bukatu*/
