@@ -1,0 +1,120 @@
+
+/* styles.css: index.html-rentzako estiloak hemen kokatzen dira */
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #c0c2cf;
+    background: linear-gradient(90deg, rgba(192, 194, 207, 0.62) 0%, rgba(3, 0, 0, 1) 0%, rgba(65, 71, 74, 1) 100%);
+}
+
+.logoa_argazkia {
+    width: 100px;
+    height: auto;
+}
+
+.ZineUsurbil {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-left: 16px;
+}
+
+header,
+.footer_nabigazioa {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nabigazio_elementuak {
+    padding-left: 130px;
+    display: flex;
+    color: white;
+    gap: 24px;
+    align-items: center;
+}
+
+.nabigazio_elementuak p {
+    margin: 0;
+    padding: 0 8px;
+    cursor: pointer;
+    align-items: right;
+}
+
+.nabigazio_elementuak a {
+    text-decoration: none;
+    color: white;
+}
+
+.nabarmenak {
+    color: white;
+    text-align: center;
+}
+
+.hamburguesa_menua {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+.nabarmenak_pelikulak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.nabarmenak_pelikulak img {
+    width: 200px;
+    height: 300px;
+    display: block;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.nabarmenak_pelikulak p {
+    color: white;
+}
+
+.ZineUsurbil_textua {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    background: linear-gradient(90deg, rgba(192, 194, 207, 0.62) 0%, rgba(3, 0, 0, 1) 0%, rgba(65, 71, 74, 1) 100%);
+    color: white;
+    padding: 20px 0 10px 0;
+    margin-top: 40px;
+}
+
+.sare_sozialak {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.sare_sozialak img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    margin: 0 6px;
+}
+
+.nabigazio_elementuak {
+    padding-left: 130px;
+    display: flex;
+    color: white;
+    gap: 24px;
+    align-items: center; 
+}
+
+.kartelera_pelikulak {
+    width: 200px;
+    height: 300px;
+    display: block;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
